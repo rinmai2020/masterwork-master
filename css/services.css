@@ -1,0 +1,234 @@
+.section-services {
+  padding-top: 3rem;
+}
+
+.section-services .header-section h2 {
+  color: #2C3038;
+  font-size: 2.875rem;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 800px) {
+  .section-services .header-section h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .section-services .header-section h2 {
+    font-size: 2rem;
+  }
+}
+
+.section-services .main-section h3 {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 1.875rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  .section-services .main-section h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .section-services .main-section h3 {
+    font-size: 2rem;
+  }
+}
+
+.section-services .main-section h5 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  color: #999;
+}
+
+.section-services .main-section p {
+  line-height: 1.5rem;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.section-services .main-section .features-left {
+  padding: 0 1.875rem;
+}
+
+.section-services .main-section .features-left .icon {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background: #F7F9FC;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: block;
+  -webkit-box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+          box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+}
+
+.section-services .main-section .features-left h4 a {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2C3038;
+  line-height: 1.5rem;
+}
+
+.section-services .main-section .features-left p {
+  margin: 0;
+  margin-top: 5px;
+  line-height: 1.25rem;
+}
+
+.products-service {
+  background-color: #F7F9FC;
+}
+
+.products-service .header-section h3 {
+  font-size: 2.875rem;
+}
+
+@media screen and (max-width: 800px) {
+  .products-service .header-section h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .products-service .header-section h3 {
+    font-size: 2rem;
+  }
+}
+
+.products-service .products-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products-service .products-info .products-right .products-icon span {
+  font-size: 1.25rem;
+  color: #dc4f72;
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  line-height: 2.5rem;
+  border-radius: 50%;
+  font-weight: 700;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+.products-service .products-info .products-right h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.products-service .products-info .products-right h6 a {
+  font-size: 1.25rem;
+  color: #2C3038;
+  margin-bottom: 5px;
+  display: inline-block;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.products-service .products-info .products-right h6 a:hover {
+  color: #dc4f72;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.products-service .products-info .products-left img {
+  border: 5px solid #fff;
+  border-radius: 6px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.products-service .products-info .products-left img:hover {
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 992px) {
+  .products-service .products-info .products-left {
+    width: 18.75rem;
+    margin: 1.25rem auto 2.5rem;
+  }
+}
+
+.features-service .header-section h3 {
+  font-size: 2.875rem;
+}
+
+@media screen and (max-width: 800px) {
+  .features-service .header-section h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .features-service .header-section h3 {
+    font-size: 2rem;
+  }
+}
+
+.features-service .main-section .content {
+  border: 1px solid #eee;
+  padding: 2rem;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.features-service .main-section .content h3 {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .features-service .main-section .content h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .features-service .main-section .content h3 {
+    font-size: 1.75rem;
+  }
+}
+
+.features-service .main-section .content .feature-list li {
+  list-style: none;
+  line-height: 1.5rem;
+  color: #2C3038;
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+.features-service .main-section .content .feature-list li i {
+  color: #dc4f72;
+  margin-right: 0.75rem;
+  background: rgba(220, 79, 114, 0.1);
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.features-service .main-section .content .btn-primary {
+  color: #fff;
+  border-color: #dc4f72;
+  background-color: #dc4f72;
+}
+
+.features-service .main-section .content .btn-primary:hover {
+  background-color: #d62f58;
+  border-color: #cf2952;
+}
+/*# sourceMappingURL=services.css.map */
